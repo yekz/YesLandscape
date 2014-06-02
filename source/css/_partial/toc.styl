@@ -1,0 +1,44 @@
+//toc
+.toc-article
+  background #2D2D2D
+  margin 0.5em
+  border-left 10px solid color-border
+  padding 0.5em
+  strong
+
+#toc
+  line-height 1.2em
+  font-size 1em
+  float right
+  .toc
+    padding 0 
+    li
+      list-style-type none
+  .toc-child 
+    padding-left 0.5em
+
+#toc.toc-aside
+  display none
+  width 13%
+  position fixed
+  right 2%
+  top 320px
+  overflow hidden
+  line-height 1.5em
+  font-size 1em
+  color color-heading
+  opacity .6
+  transition opacity 1s ease-out
+  strong
+    padding 0.3em 0
+    color color-font
+  &:hover
+    transition opacity .3s ease-out
+    opacity 1
+  a
+    transition color 1s ease-out
+    &:hover
+      color color-theme
+      transition color .3s ease-out
+.active
+  color color-theme !important

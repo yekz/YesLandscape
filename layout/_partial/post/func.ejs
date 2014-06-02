@@ -1,0 +1,32 @@
+<% if (!index){ %>
+
+<!-- toc -->
+<% if(post.toc !== false){ %>
+	<div id="toc" class="toc-article">
+		<%- toc(post.content) %>
+	</div>
+<% } %>
+<%- post.content %>
+
+</div>
+    <footer class="article-footer">
+      <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link">Share</a>
+      <%- partial('tag') %>
+    </footer>
+
+<!-- baidu start -->
+<div style="padding-left:30px;"><div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<div id="gbook" style="padding-left:20px;padding-right:20px;">
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="<%= post.slug %>" data-title="<%= post.title %>" data-url="<%= post.permalink %>"></div>
+<!-- 多说评论框 end -->
+</div>
+
+<% } else { %>
+<p itemprop="description" ><%- strip_html(post.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 2000) %></p>
+<p class="article-more-link">
+	<a href="<%- config.root %><%- post.path %>#more"><%= theme.excerpt_link %></a>
+</p>
+<% } %>
