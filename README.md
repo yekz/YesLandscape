@@ -1,21 +1,21 @@
-# Landscape
+# YesLandscape
 
-A simple and cool [Hexo](http://hexo.io/) theme based on Landscape.Modified some colors and display, add some features .
-A brand new default theme for .
+A simple and cool [Hexo](http://hexo.io/) theme based on [Landscape](https://github.com/hexojs/hexo-theme-landscape). Modified some colors and display, add some features .
 
-- [Preview](www.yekezhong.com)
+- [Preview](http://www.yekezhong.com)
 
-## Installation
+# Change
 
-### Install
+## add
+* add duoshuo, add comment number after title
+* add toc
+* add scrollToTop button
+* add baidu share
+* add links plugin
 
-``` bash
-$ git clone https://github.com/yekz/YesLandscape
-```
+## modify
+* blockquote style (原来的居中大字体简直不能忍好吗!)
+* some color
+* index page now will cut the content when don't hava a more tag
 
 **YesLandscape requires Hexo 2.4 and above.**
-
-[Hexo]: http://zespia.tw/hexo/
-[Fancybox]: http://fancyapps.com/fancybox/
-[Font Awesome]: http://fontawesome.io/
-[Grunt]: http://gruntjs.com/
