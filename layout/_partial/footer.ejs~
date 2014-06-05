@@ -14,7 +14,7 @@
    #ds-recent-visitors .ds-avatar {
     float: left;
 </style>
-<ul class="ds-recent-visitors" data-num-items="22"></ul>
+<ul class="ds-recent-visitors" data-num-items="21"></ul>
 </div>
 
 <div id="footer-info" class="inner">
