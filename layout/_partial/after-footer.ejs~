@@ -1,7 +1,8 @@
 <script src="/js/jquery-2.1.1.min.js"></script>
+
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"yekz"};
+var duoshuoQuery = {short_name:""};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -12,15 +13,6 @@ var duoshuoQuery = {short_name:"yekz"};
 	})();
 	</script>
 <!-- 多说公共JS代码 end -->
-
-
-<script type="text/javascript">
-var div = document.getElementById("gbook-gbook");
-if (div) {
-	var div = document.getElementById("gbook");
-	div.parentNode.removeChild(div);
-}
-</script>
 
 <%- partial('scroll2top') %>
 
