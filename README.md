@@ -7,11 +7,12 @@ A simple and cool [Hexo](http://hexo.io/) theme based on [Landscape](https://git
 # Change
 
 ## add
-* add duoshuo, add comment number after title
+* add duoshuo, add comment number after title (config.duoshuo)
 * add toc
 * add scrollToTop button
 * add baidu share
 * add links plugin
+* add send to kindle button
 
 ## modify
 * blockquote style (原来的居中大字体简直不能忍好吗!)
