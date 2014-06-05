@@ -18,12 +18,9 @@
 </div>
 
 <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <a href="http://www.yekezhong.com" title="YesBlog | 叶科忠的博客"><%= config.author || config.title %></a> | <script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe35b9eb7139bfb03f4f465848a3269c3' type='text/javascript'%3E%3C/script%3E"));
-</script> |  <a href="/sitemap.xml" target="_blank">Sitemap</a>
+      &copy; <%= date(new Date(), 'YYYY') %> <a href="http://www.yekezhong.com" title=""><%= config.author || config.title %></a>
 <br>
-      Powered by <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> & Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> & Theme YesLandscape by Ye,KeZhong
+      Powered by <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yekz/YesLandscape" target="_blank">YesLandscape</a>, by <a href="http://www.yekezhong.com" target="_blank">Ye,KeZhong</a>, based on Landscape.
     </div>
   </div>
 </footer>
