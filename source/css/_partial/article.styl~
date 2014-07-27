@@ -27,6 +27,8 @@
 
 .article-header
   padding: article-padding article-padding 0
+  padding-bottom: 30px
+  background-color: #ddd
 
 .article-title
   text-decoration: none
@@ -82,7 +84,6 @@
     border-left-style: solid
     border-left-width: 10px
     font-family: font-serif
-    font-size: 1.4em
     border-color: #258fb8
     background: #2d2d2d
     color: white
@@ -360,3 +361,4 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
+
