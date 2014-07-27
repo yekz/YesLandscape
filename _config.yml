@@ -9,7 +9,7 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
-sidebar: right
+sidebar: left
 widgets:
 - category
 - recent_posts
@@ -25,4 +25,4 @@ fb_admins:
 fb_app_id:
 
 #duoshuo
-duoshuo: yekz
+duoshuo: 
