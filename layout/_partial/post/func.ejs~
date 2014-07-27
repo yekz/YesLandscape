@@ -1,9 +1,9 @@
 <% if (!index){ %>
 
 <!-- toc -->
-<% if(post.toc !== false){ %>
+<% if(post.toc !== false && toc(post.content)){ %>
 	<div id="toc" class="toc-article">
-		<%- toc(post.content) %>
+		<%- toc(post.content)%>
 	</div>
 <% } %>
 <%- post.content %>
